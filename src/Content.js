@@ -1,9 +1,7 @@
 import React, { Component } from 'react';
 import './App.css';
-import Header from './Header';
-import Content from './Content';
 
-class App extends Component {
+class Content extends Component {
 
  /* renderIcons() {
     return _.map(this.state.models, (model) => {
@@ -18,13 +16,10 @@ class App extends Component {
 
 render() {
   return (
-    <div className="container">
-        <Header></Header>
-        <Content></Content>
-    </div>
+    <div>Hello Content</div>
   );
 }
  
 }
 
-export default App;
+export default Content;
