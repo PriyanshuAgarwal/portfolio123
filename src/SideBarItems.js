@@ -20,31 +20,31 @@ render() {
       <ul>
         <li>
           <div className="menu-item">
-              <i class="lnr lnr-home" aria-hidden="true"></i>
+              <i className="lnr lnr-home" aria-hidden="true"></i>
               <span className="menu-label">Home</span>
           </div>
         </li>
         <li>
           <div className="menu-item">
-              <i class="lnr lnr-user" aria-hidden="true"></i>
+              <i className="lnr lnr-user" aria-hidden="true"></i>
               <span className="menu-label">About Me</span>
           </div>
         </li>
         <li>
           <div className="menu-item">
-              <i class="lnr lnr-license" aria-hidden="true"></i>
+              <i className="lnr lnr-license" aria-hidden="true"></i>
               <span className="menu-label">Resume</span>
           </div>
         </li>
         <li>
           <div className="menu-item">
-              <i class="lnr lnr-briefcase" aria-hidden="true"></i>
+              <i className="lnr lnr-briefcase" aria-hidden="true"></i>
               <span className="menu-label">Projects</span>
           </div>
         </li>
         <li>
           <div className="menu-item">
-              <i class="lnr lnr-envelope" aria-hidden="true"></i>
+              <i className="lnr lnr-envelope" aria-hidden="true"></i>
               <span className="menu-label">Contact</span>
           </div>
         </li>

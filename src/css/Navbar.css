@@ -25,12 +25,15 @@
     top: 5px;
 }
 
-.lnr {
-    font-family: 'Linearicons-Free';
-    font-size: 23px;
+.navbar-container .lnr {
     position: relative;
     left: 42px;
     top: 7px;
+}
+
+.lnr {
+    font-family: 'Linearicons-Free';
+    font-size: 23px;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
