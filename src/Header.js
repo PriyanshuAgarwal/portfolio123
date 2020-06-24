@@ -1,5 +1,4 @@
 import React, { Component } from 'react';
-import './App.css';
 import ProfilePic from './ProfilePic';
 import SideBarItems from './SideBarItems';
 import Footer from './Footer';

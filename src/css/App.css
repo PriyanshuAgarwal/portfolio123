@@ -4,14 +4,17 @@
 }
 
 .header {
-  background-color: #17181B;
+  background-color: #17181C;
   width: 200px;
+  position: fixed;
+  top: 0px;
   height: 100%;
   display: flex;
   color: white; 
   flex-direction: column;
   position: fixed;
-  z-index: 20;
+  z-index: 999;
+  border-right: 1px solid #202226;
 
 }
 

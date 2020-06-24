@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './App.css';
+import './css/Navbar.css'
 
 class SideBarItems extends Component {
 
@@ -16,7 +16,40 @@ class SideBarItems extends Component {
 
 render() {
   return (
-    <div>Hello Content - SideBarItems</div>
+    <div className="navbar-container">
+      <ul>
+        <li>
+          <div className="menu-item">
+              <i class="lnr lnr-home" aria-hidden="true"></i>
+              <span className="menu-label">Home</span>
+          </div>
+        </li>
+        <li>
+          <div className="menu-item">
+              <i class="lnr lnr-user" aria-hidden="true"></i>
+              <span className="menu-label">About Me</span>
+          </div>
+        </li>
+        <li>
+          <div className="menu-item">
+              <i class="lnr lnr-license" aria-hidden="true"></i>
+              <span className="menu-label">Resume</span>
+          </div>
+        </li>
+        <li>
+          <div className="menu-item">
+              <i class="lnr lnr-briefcase" aria-hidden="true"></i>
+              <span className="menu-label">Projects</span>
+          </div>
+        </li>
+        <li>
+          <div className="menu-item">
+              <i class="lnr lnr-envelope" aria-hidden="true"></i>
+              <span className="menu-label">Contact</span>
+          </div>
+        </li>
+      </ul>
+    </div>
   );
 }
  
