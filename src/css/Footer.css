@@ -9,3 +9,7 @@
     justify-content: space-evenly;
 }
 
+.footer-container .fa {
+    font-size: 23px;
+    color: #777;
+}

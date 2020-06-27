@@ -26,7 +26,7 @@ render() {
           <i className="fa fa-twitter-square" aria-hidden="true"></i>
         </a>
         <a href="#">
-          <i className="lnr lnr-home" aria-hidden="true"></i>
+          <i className="fa fa-linkedin-square" aria-hidden="true"></i>
         </a>
       </div>
     </div>

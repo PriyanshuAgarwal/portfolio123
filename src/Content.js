@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import HomeContent from './HomeContent';
 
 class Content extends Component {
 
@@ -15,7 +16,9 @@ class Content extends Component {
 
 render() {
   return (
-    <div>Hello Content</div>
+    <div className="content">
+      <HomeContent></HomeContent>
+    </div>
   );
 }
  
