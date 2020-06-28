@@ -62,7 +62,6 @@ body {
 .header-name {
   height: 44px;
   position: absolute;
-  font-family: "Playfair Display", serif;
   left: 0px;
   bottom: 0px;
   width: 100%;
@@ -99,4 +98,8 @@ body {
   to {
     transform: rotate(360deg);
   }
+}
+
+h2, h3 {
+  font-family: "Playfair Display", serif;
 }

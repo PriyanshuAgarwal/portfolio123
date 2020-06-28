@@ -1,0 +1,18 @@
+.about-info-container {
+    display: flex;
+}
+
+.about-details {
+    width: 66%;
+    padding: 0 10px;
+}
+
+.about-personal-details {
+    width: 34%;
+}
+
+
+.about-details h3 {
+    font-size: 22px;
+    font-weight: 700;
+}
