@@ -29,6 +29,36 @@
     line-height: 1em;
     margin-bottom: 15px;
 }
+.signature {
+    width: 50%;
+}
+.signature img {
+    width: 100%;
+    height: auto;
+}
+.btn-main {
+    border: 2px solid #00A3E1;
+    padding: 10px 20px;
+    width: max-content;
+    text-transform: uppercase;
+    background-color: transparent;
+    -webkit-transition: all .3s ease;
+    -o-transition: all .3s ease;
+    transition: all .3s ease;
+    cursor: pointer;
+    font-size: 14px;
+    color: #00A3E1;
+    font-weight: 500;
+    position: relative;
+    line-height: 100%;
+    letter-spacing: 1px;
+    overflow: hidden;
+}
+
+.btn-main:hover {
+    color: #000;
+    background-color: #00A3E1;
+}
 
 .about-personal-details ul li .title {
     font-family: "Playfair Display", serif;

@@ -1,5 +1,5 @@
 import React, { Component } from 'react';
-import './css/PageHeading.css';
+import '../css/PageHeading.css';
 
 const PageHeading = (props) => {
     

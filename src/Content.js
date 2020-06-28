@@ -18,7 +18,7 @@ class Content extends Component {
 render() {
   return (
     <div className="content">
-     {/*   <HomeContent></HomeContent> */} 
+       { /*<HomeContent></HomeContent> */}
       <AboutMe></AboutMe>
     </div>
   );
