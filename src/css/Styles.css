@@ -5,3 +5,9 @@
 p {
     line-height: 1.65;
 }
+
+ul {
+    list-style: none;
+    padding: 0px;
+    margin: 0px;
+}

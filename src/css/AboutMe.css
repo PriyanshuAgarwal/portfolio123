@@ -9,10 +9,37 @@
 
 .about-personal-details {
     width: 34%;
+    padding-left: 30px;
+    padding-right: 15px;
 }
 
 
-.about-details h3 {
+.about-info-container h3 {
     font-size: 22px;
     font-weight: 700;
+}
+
+.about-personal-details ul li .title::after {
+    position: absolute;
+    right: -10px;
+    content: ":";
+}
+
+.about-personal-details ul li {
+    line-height: 1em;
+    margin-bottom: 15px;
+}
+
+.about-personal-details ul li .title {
+    font-family: "Playfair Display", serif;
+    font-size: 16px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    border-bottom: 2px solid #fff;
+    position: relative;
+    display: inline-block;
+    margin-right: 15px;
+    padding-bottom: 1px;
+    color: #fff;
+    border-color: #00A3E1;
 }
