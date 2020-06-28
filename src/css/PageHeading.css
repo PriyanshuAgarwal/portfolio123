@@ -1,0 +1,26 @@
+.page-heading {
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding-bottom: 10px;
+    border-bottom: 1px dashed rgba(255, 255, 255, 0.2);
+}
+
+.page-heading .icon {
+    float: right;
+    font-size: 38px;
+    line-height: 1em;
+    color: #00A3E1;
+  }
+  
+  .page-heading h2 {
+    font-size: 36px;
+    font-weight: 700;
+    letter-spacing: 1.5px;
+    line-height: 1em;
+    text-transform: capitalize;
+    color: #fff;
+    position: relative;
+    display: inline-block;
+    color: #00A3E1;
+    font-family: "Playfair Display", serif;
+  } 

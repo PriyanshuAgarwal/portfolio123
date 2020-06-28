@@ -29,8 +29,8 @@ class HomeContent extends Component {
         });    
     }
     
-
-    /* componentWillUnmount() {
+    /*  TODO */
+    /* componentWillUnmount() { 
         clearInterval(this.state.intervalId);
       } */
 

@@ -29,11 +29,11 @@
     position: relative;
     left: 42px;
     top: 7px;
+    font-size: 20px;
 }
 
 .lnr {
     font-family: 'Linearicons-Free';
-    font-size: 20px;
     font-style: normal;
     font-weight: normal;
     font-variant: normal;
