@@ -9,7 +9,7 @@ class AboutMe extends Component {
         return (
             <div className="page-container">
                 <div className="page-block">
-                    <PageHeading title="About Me" icon="lnr-user"></PageHeading>      
+                    <PageHeading title="About Me test " icon="lnr-user"></PageHeading>      
                 </div>
                 
             </div>
