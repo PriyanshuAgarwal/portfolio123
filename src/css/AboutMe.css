@@ -11,6 +11,32 @@
     padding: 0 10px;
 }
 
+.service-item {
+    text-align: center;
+    margin-bottom: 40px;
+    padding-right: 15px;
+    padding-left: 15px;
+}
+
+.service-item .icon {
+    font-size: 50px;
+    margin-bottom: 10px;
+    line-height: 1em;
+    color: #00A3E1;
+}
+
+.service-item h4 {
+    font-size: 18px;
+    font-weight: 600;
+}
+
+.service-item p {
+    font-size: 14.5px;
+    line-height: 22px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+}
+
 .about-personal-details {
     width: 34%;
     padding-left: 30px;
