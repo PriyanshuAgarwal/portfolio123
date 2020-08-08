@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import HomeContent from './HomeContent';
 import AboutMe from './AboutMe';
+import Resume from './resume/Resume';
 
 class Content extends Component {
 
@@ -19,7 +20,8 @@ render() {
   return (
     <div className="content">
        { /*<HomeContent></HomeContent> */}
-      <AboutMe></AboutMe>
+      { /*<AboutMe></AboutMe> */ }
+      <Resume></Resume>
     </div>
   );
 }

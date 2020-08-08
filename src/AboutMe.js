@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import './css/AboutMe.css';
-import PageHeading from './about_me/PageHeading';
+import PageHeading from './commons/PageHeading';
 import AboutInfo from './about_me/AboutInfo';
 import AboutService from './about_me/AboutService';
 
