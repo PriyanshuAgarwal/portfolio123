@@ -1,5 +1,9 @@
-.about-info-container {
+.about-info-container, .about-service-container {
     display: flex;
+}
+
+.about-service-container {
+    flex-direction: column;
 }
 
 .about-details {
@@ -73,3 +77,10 @@
     color: #fff;
     border-color: #00A3E1;
 }
+
+.service-list {
+    display: flex;
+    justify-content: space-between;
+}
+
+
