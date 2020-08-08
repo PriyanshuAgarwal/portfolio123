@@ -1,0 +1,7 @@
+.history-container {
+    display: flex;
+}
+
+.history-container .experience-container, .history-container .education-container {
+    width: 50%;
+}

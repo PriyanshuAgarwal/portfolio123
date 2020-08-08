@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import '../css/AboutMe.css';
-import SectionSubheading from '../SectionSubheading';
+import SectionSubheading from '../commons/SectionSubheading';
 
 const AboutService = () => {
     
