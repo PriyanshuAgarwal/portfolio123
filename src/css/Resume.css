@@ -5,3 +5,41 @@
 .history-container .experience-container, .history-container .education-container {
     width: 50%;
 }
+
+.history-item {
+    margin: 20px 0 50px;
+    list-style: none;
+    position: relative;
+    padding: 0 0 0 50px;
+    width: 100%;
+}
+
+.history-item li {
+    position: relative;
+    margin-left: 10px;
+    padding: 20px;
+    transition: all .5s ease-in-out;
+}
+
+.history-item li .content h4 {
+    font-size: 18px;
+    font-weight: 700;
+    letter-spacing: .5px;
+    line-height: 26px;
+    margin: 0;
+    text-transform: uppercase;
+}
+
+.history-item li .content h5 {
+    margin-top: 5px;
+    margin-bottom: 5px;
+    font-size: 12px;
+    font-family: "Roboto", sans-serif;
+    font-weight: 600;
+    text-transform: uppercase;
+}
+
+.history-item li .content p {
+    font-size: 16px;
+    margin-bottom: 0px;
+}
