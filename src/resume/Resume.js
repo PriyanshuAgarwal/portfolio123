@@ -35,6 +35,23 @@ render() {
                     </div>
                     <div className="education-container">
                         <SectionSubheading title="Education" />
+                            <ul className="history-item">
+                                <HistroyItem
+                                    title="LEAD UI DESIGNER"
+                                    short_description="BIG DESIGN COMPANY, NY, USA"
+                                    info="Sit cupiditate praesentium ex esse nulla Facere fuga perspiciatis eveniet provident neque Ea ratione non minus temporibus ipsum Sunt minima">
+                                </HistroyItem>
+                                <HistroyItem
+                                    title="WEB DESIGNER"
+                                    short_description="BIG DESIGN COMPANY, NY, USA"
+                                    info="Sit cupiditate praesentium ex esse nulla Facere fuga perspiciatis eveniet provident neque Ea ratione non minus temporibus ipsum Sunt minima">
+                                </HistroyItem>
+                                <HistroyItem
+                                    title="WEB DEVELOPER"
+                                    short_description="BIG DESIGN COMPANY, NY, USA"
+                                    info="Sit cupiditate praesentium ex esse nulla Facere fuga perspiciatis eveniet provident neque Ea ratione non minus temporibus ipsum Sunt minima">
+                                </HistroyItem>
+                            </ul>
                     </div>
                 </div>
             </div>

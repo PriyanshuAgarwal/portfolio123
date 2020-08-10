@@ -6,6 +6,8 @@
     width: 50%;
 }
 
+
+
 .history-item {
     margin: 20px 0 50px;
     list-style: none;
@@ -19,6 +21,14 @@
     margin-left: 10px;
     padding: 20px;
     transition: all .5s ease-in-out;
+}
+
+.history-item li .content {
+    margin-left: 10px;
+}
+
+.history-item li:not(:first-child) {
+    margin-top: 60px;
 }
 
 .history-item li .content h4 {
@@ -37,9 +47,60 @@
     font-family: "Roboto", sans-serif;
     font-weight: 600;
     text-transform: uppercase;
+    color: rgb(47, 198, 255);
 }
 
 .history-item li .content p {
     font-size: 16px;
     margin-bottom: 0px;
+}
+
+.history-item li .year {
+    height: 100%;
+    left: -10px;
+    top: 0;
+    position: absolute;
+}
+
+.history-item li .year span {
+    font-size: 16px;
+    position: absolute;
+    -webkit-transform: translateX(-120%);
+    -ms-transform: translateX(-120%);
+    transform: translateX(-120%);
+    color: rgb(232, 230, 227);
+}
+
+.history-item li .year .to {
+    top: -18px;
+}
+
+.history-item li .year .from {
+    bottom: -18px;
+}
+
+.history-item .line-left {
+    width: 2px;
+    background-color: rgb(0, 130, 180);
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left: -10px;
+
+}
+
+.history-item .line-left::after, .history-item .line-left::before {
+    content: "";
+    width: 10px;
+    height: 10px;
+    -webkit-border-radius: 50%;
+    border-radius: 50%;
+    border: 2px solid rgb(0, 136, 188);
+    position: absolute;
+    left: -4px;
+    top: -10px;
+}
+
+.history-item .line-left::after {
+    top: 100%
 }
