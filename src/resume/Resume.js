@@ -1,13 +1,12 @@
-import React, { Component } from 'react';
+import React from 'react';
 import PageHeading from '../commons/PageHeading';
 import SectionSubheading from "../commons/SectionSubheading";
 import HistroyItem from "./HistoryItem";
+import SkillItem from "./SkillItem";
 import '../css/Resume.css';
 
-class Resume extends Component {
 
-
-render() {
+const Resume = () => { 
     return (
         <div className="page-container">
             <div className="page-block">
@@ -52,6 +51,32 @@ render() {
                                     info="Sit cupiditate praesentium ex esse nulla Facere fuga perspiciatis eveniet provident neque Ea ratione non minus temporibus ipsum Sunt minima">
                                 </HistroyItem>
                             </ul>
+                        </div>
+                    </div>
+                <div className="skills-container">
+                    <div className="programming-container">
+                        <SectionSubheading title="Programming Skills" />
+                        <SkillItem>
+
+                        </SkillItem>
+                        <SkillItem>
+                            
+                        </SkillItem>
+                        <SkillItem>
+                            
+                        </SkillItem>
+                    </div>
+                    <div className="coding-container">
+                        <SectionSubheading title="Coding Skills" />
+                        <SkillItem>
+                            
+                        </SkillItem>
+                        <SkillItem>
+                            
+                        </SkillItem>
+                        <SkillItem>
+                            
+                        </SkillItem>
                     </div>
                 </div>
             </div>
@@ -59,6 +84,6 @@ render() {
     );
 }
  
-}
+
 
 export default Resume;

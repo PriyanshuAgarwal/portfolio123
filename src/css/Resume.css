@@ -1,8 +1,12 @@
-.history-container {
+.history-container, .skills-container {
     display: flex;
 }
 
 .history-container .experience-container, .history-container .education-container {
+    width: 50%;
+}
+
+.skills-container .programming-container, .skills-container .coding-container {
     width: 50%;
 }
 
