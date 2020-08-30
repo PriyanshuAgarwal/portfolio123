@@ -3,27 +3,21 @@ import HomeContent from './HomeContent';
 import AboutMe from './AboutMe';
 import Resume from './resume/Resume';
 
-class Content extends Component {
+const Content = (props) => {
 
-  constructor(props) {
-    super(props);
-  }
-
-render() {
   return (
       <div className="content">
-        <div className={this.props.currentView === 'home' ? '' : 'hidden'}>
+        <div className={props.currentView === 'home' ? 'h-100' : 'hidden'}>
           <HomeContent/>
         </div>
-        <div className={this.props.currentView === 'about' ? '' : 'hidden'}>
+        <div className={props.currentView === 'about' ? 'h-100' : 'hidden'}>
           <AboutMe/>
         </div>
-        <div className={this.props.currentView === 'resume' ? '' : 'hidden'}>
+        <div className={props.currentView === 'resume' ? 'h-100' : 'hidden'}>
           <Resume/>
         </div>
     </div>
   );
-}
  
 }
 
