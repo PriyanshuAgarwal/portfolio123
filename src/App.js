@@ -5,23 +5,25 @@ import Header from './Header';
 import Content from './Content';
 
 class App extends Component {
+constructor(props) {
+  super(props);
 
- /* renderIcons() {
-    return _.map(this.state.models, (model) => {
-      return (<SidebarIcon
-        onChange={this.changeView}
-        modelName={model.name}
-        icon={model.icon}
-        isActive={this.state.activeView === model.name} 
-      />)
-    })
-  } */
+  this.state = {
+    currentView: "home"
+  }
+
+  this.changeView = this.changeView.bind(this);
+}
+
+changeView(view) {
+  this.setState({currentView: view})
+}
 
 render() {
   return (
     <div className="app-container">
-        <Header></Header>
-        <Content></Content>
+        <Header changeView = {this.changeView}></Header>
+        <Content currentView={this.state.currentView}></Content>
     </div>
   );
 }

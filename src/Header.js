@@ -4,17 +4,9 @@ import SideBarItems from './SideBarItems';
 import Footer from './Footer';
 
 class Header extends Component {
-
- /* renderIcons() {
-    return _.map(this.state.models, (model) => {
-      return (<SidebarIcon
-        onChange={this.changeView}
-        modelName={model.name}
-        icon={model.icon}
-        isActive={this.state.activeView === model.name} 
-      />)
-    })
-  } */
+constructor(props) {
+  super(props);
+}
 
 render() {
   return (
@@ -23,7 +15,7 @@ render() {
         <ProfilePic></ProfilePic>
 
         <div className="sidebar-items">
-            <SideBarItems></SideBarItems>
+            <SideBarItems changeView={this.props.changeView}></SideBarItems>
         </div>
         <div className="footer">
             <Footer></Footer>

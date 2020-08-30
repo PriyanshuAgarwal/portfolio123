@@ -5,23 +5,22 @@ import Resume from './resume/Resume';
 
 class Content extends Component {
 
- /* renderIcons() {
-    return _.map(this.state.models, (model) => {
-      return (<SidebarIcon
-        onChange={this.changeView}
-        modelName={model.name}
-        icon={model.icon}
-        isActive={this.state.activeView === model.name} 
-      />)
-    })
-  } */
+  constructor(props) {
+    super(props);
+  }
 
 render() {
   return (
-    <div className="content">
-       { /*<HomeContent></HomeContent> */}
-      { /*<AboutMe></AboutMe> */ }
-      <Resume></Resume>
+      <div className="content">
+        <div className={this.props.currentView === 'home' ? '' : 'hidden'}>
+          <HomeContent/>
+        </div>
+        <div className={this.props.currentView === 'about' ? '' : 'hidden'}>
+          <AboutMe/>
+        </div>
+        <div className={this.props.currentView === 'resume' ? '' : 'hidden'}>
+          <Resume/>
+        </div>
     </div>
   );
 }

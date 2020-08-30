@@ -106,6 +106,10 @@ h2, h3 {
   font-family: "Playfair Display", serif;
 }
 
+.hidden {
+  display: none;
+}
+
 
 .section-subheading h3 {
   border-bottom: 2px solid #00A3E1;
