@@ -15,7 +15,10 @@ render() {
         <ProfilePic></ProfilePic>
 
         <div className="sidebar-items">
-            <SideBarItems changeView={this.props.changeView}></SideBarItems>
+            <SideBarItems
+              changeView={this.props.changeView}
+              currentViewIndex={this.props.currentViewIndex}>
+            </SideBarItems>
         </div>
         <div className="footer">
             <Footer></Footer>

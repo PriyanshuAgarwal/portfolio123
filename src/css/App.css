@@ -90,9 +90,12 @@ body {
 }
 
 .h-100 {
-  height:
+  height: 100%
 }
 
+.h-101 {
+  height: 101%;
+}
 
 .footer {
   height: 5%;

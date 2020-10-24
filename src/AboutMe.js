@@ -9,12 +9,10 @@ class AboutMe extends Component {
 
     render() {
         return (
-            <div className="page-container">
-                <div className="page-block">
-                    <PageHeading title="About Me" icon="lnr-user"></PageHeading>
-                    <AboutInfo></AboutInfo>   
-                    <AboutService></AboutService> 
-                </div>
+            <div className="page-block">
+                <PageHeading title="About Me" icon="lnr-user"></PageHeading>
+                <AboutInfo></AboutInfo>
+                <AboutService></AboutService>
             </div>
         );
     }

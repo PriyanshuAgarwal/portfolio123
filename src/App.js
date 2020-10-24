@@ -29,8 +29,17 @@ changeView(index) {
 render() {
   return (
     <div className="app-container">
-        <Header changeView = {this.changeView}></Header>
-        <Content currentView={this.state.currentView}></Content>
+        <Header
+          changeView = {this.changeView}
+          currentViewIndex={this.state.currentViewIndex}>
+        </Header>
+        <Content
+          currentView={this.state.currentView}
+          currentViewIndex={this.state.currentViewIndex}
+          changeView = {this.changeView}
+          //pageCount={this.state.pageList.length}>
+          pageCount={5}>
+        </Content>
     </div>
   );
 }

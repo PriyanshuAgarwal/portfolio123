@@ -19,6 +19,10 @@
     background-color: transparent;
 }
 
+.menu-item-active {
+    color: white;
+}
+
 .menu-label {
     position: relative;
     left: 51px;
