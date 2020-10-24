@@ -1,6 +1,7 @@
 import React, { Component } from 'react';
 import './css/App.css';
 import './css/Styles.css';
+import $ from 'jquery';
 import Header from './Header';
 import Content from './Content';
 
@@ -9,14 +10,20 @@ constructor(props) {
   super(props);
 
   this.state = {
-    currentView: "home"
+    currentViewIndex: 0,
+    currentView: "home",
+    pageList: ["home", "about", "resume"]
   }
 
   this.changeView = this.changeView.bind(this);
 }
 
-changeView(view) {
-  this.setState({currentView: view})
+changeView(index) {
+  var pageList = this.state.pageList;
+  this.setState({
+    currentView: pageList[index],
+    currentViewIndex: index
+  })
 }
 
 render() {

@@ -11,31 +11,31 @@ render() {
   return (
     <div className="navbar-container">
       <ul>
-        <li onClick={() => this.props.changeView("home")}>
+        <li onClick={() => this.props.changeView(0)}>
           <div className="menu-item">
               <i className="lnr lnr-home" aria-hidden="true"></i>
               <span className="menu-label">Home</span>
           </div>
         </li>
-        <li onClick={() => this.props.changeView("about")}>
+        <li onClick={() => this.props.changeView(1)}>
           <div className="menu-item">
               <i className="lnr lnr-user" aria-hidden="true"></i>
               <span className="menu-label">About Me</span>
           </div>
         </li>
-        <li onClick={() => this.props.changeView("resume")}>
+        <li onClick={() => this.props.changeView(2)}>
           <div className="menu-item">
               <i className="lnr lnr-license" aria-hidden="true"></i>
               <span className="menu-label">Resume</span>
           </div>
         </li>
-        <li onClick={() => this.props.changeView("project")}>
+        <li onClick={() => this.props.changeView(3)}>
           <div className="menu-item">
               <i className="lnr lnr-briefcase" aria-hidden="true"></i>
               <span className="menu-label">Projects</span>
           </div>
         </li>
-        <li onClick={() => this.props.changeView("contact")}>
+        <li onClick={() => this.props.changeView(4)}>
           <div className="menu-item">
               <i className="lnr lnr-envelope" aria-hidden="true"></i>
               <span className="menu-label">Contact</span>
