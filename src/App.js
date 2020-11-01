@@ -1,7 +1,6 @@
 import React, { Component } from 'react';
 import './css/App.css';
 import './css/Styles.css';
-import $ from 'jquery';
 import Header from './Header';
 import Content from './Content';
 
@@ -10,33 +9,34 @@ constructor(props) {
   super(props);
 
   this.state = {
-    currentViewIndex: 0,
     currentView: "home"
   }
 
   this.changeView = this.changeView.bind(this);
+  this.setView = this.setView.bind(this);
 }
 
 changeView(view) {
-  window.location.href = "#" + view; 
   this.setState({
     currentView: view
   }) 
+}
+
+setView(view) {
+  window.location.href = "#" + view;
+  this.changeView(view);
 }
 
 render() {
   return (
     <div className="app-container">
         <Header
-          changeView = {this.changeView}
+          setView={this.setView}
           currentView={this.state.currentView}>
         </Header>
         <Content
           currentView={this.state.currentView}
-          currentViewIndex={this.state.currentViewIndex}
-          changeView = {this.changeView}
-          //pageCount={this.state.pageList.length}>
-          pageCount={2}>
+          changeView={this.changeView}>
         </Content>
     </div>
   );

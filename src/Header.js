@@ -16,7 +16,7 @@ render() {
 
         <div className="sidebar-items">
             <SideBarItems
-              changeView={this.props.changeView}
+              setView={this.props.setView}
               currentView={this.props.currentView}>
             </SideBarItems>
         </div>
