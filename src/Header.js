@@ -17,7 +17,7 @@ render() {
         <div className="sidebar-items">
             <SideBarItems
               changeView={this.props.changeView}
-              currentViewIndex={this.props.currentViewIndex}>
+              currentView={this.props.currentView}>
             </SideBarItems>
         </div>
         <div className="footer">

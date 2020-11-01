@@ -11,19 +11,17 @@ constructor(props) {
 
   this.state = {
     currentViewIndex: 0,
-    currentView: "home",
-    pageList: ["home", "about", "resume"]
+    currentView: "home"
   }
 
   this.changeView = this.changeView.bind(this);
 }
 
-changeView(index) {
-  var pageList = this.state.pageList;
+changeView(view) {
+  window.location.href = "#" + view; 
   this.setState({
-    currentView: pageList[index],
-    currentViewIndex: index
-  })
+    currentView: view
+  }) 
 }
 
 render() {
@@ -31,14 +29,14 @@ render() {
     <div className="app-container">
         <Header
           changeView = {this.changeView}
-          currentViewIndex={this.state.currentViewIndex}>
+          currentView={this.state.currentView}>
         </Header>
         <Content
           currentView={this.state.currentView}
           currentViewIndex={this.state.currentViewIndex}
           changeView = {this.changeView}
           //pageCount={this.state.pageList.length}>
-          pageCount={5}>
+          pageCount={2}>
         </Content>
     </div>
   );
